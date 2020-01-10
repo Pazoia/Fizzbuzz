@@ -8,8 +8,13 @@ describe 'fizzbuzz' do
   it "returns 'fizz' when passed 5" do
     expect(5.fizzbuzz).to eq "buzz"
   end
-  
+
   it "returns 'fizzbuzz' when passed 15" do
     expect(15.fizzbuzz).to eq "fizzbuzz"
   end
+
+  it "returns 4 when passed 4" do
+    expect(4.fizzbuzz).to eq 4
+  end
+
 end
